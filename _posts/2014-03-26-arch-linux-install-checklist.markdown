@@ -1,12 +1,9 @@
-<<<<<<< HEAD
---
+---
 layout: post
 title: Arch Linux Install Checklist
 categories: linux
---
-=======
+---
 
->>>>>>> ff77c005a5d38336973a5d12efdd4761ca574288
 This is my Arch Linux installation checklist. I mostly use it as a quick reference during the rare cases I need to do a fresh install from scratch. **Do  not use this as a general installation guide!** Refer to the [Beginners' guide](https://wiki.archlinux.org/index.php/Beginners%27_guide) for a detailed step-vy-step walkthrough.
 
 Basic System
@@ -47,4 +44,3 @@ Desktop or Laptop
 1. Install user packages: `chromium evince file-roller gimp libreoffice mumble openjdk openvpn pcmanfm python ruby sbcl texlive-most truecrypt virtualbox vlc xterm`, plus the latest versions of Sublime Text and IntelliJ IDEA from the AUR
 =======
 1. Install user packages: `chromium evince file-roller gimp libreoffice mumble openjdk openvpn pcmanfm python ruby sbcl texlive-most truecrypt virtualbox vlc xterm`, plus the latest versions of Sublime Text and IntelliJ IDEA from the AUR
->>>>>>> ff77c005a5d38336973a5d12efdd4761ca574288
