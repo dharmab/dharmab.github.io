@@ -23,7 +23,7 @@ Basic System
 1. Set the hardware clock to store UTC time with `hwclock --systohc --utc`
 1. Uncomment `en_US.UTF-8` in `/etc/locale.gen`, run `locale-gen` and create `/etc/locale.conf` with content `LANG=en_US.UTF-8`
 1. Write netctl profiles in `/etc/netctl` and enable `netctl-ifplugd@interface` and `netctl-auto@interface` services as appropriate
-1. Enable the `pacserve` and `ntpd` services
+1. Enable the `ntpd` service
 1. Set the root password with `passwd`
 1. Install a boot loader. [Syslinux](https://wiki.archlinux.org/index.php/Syslinux) for BIOS, [gummiboot](https://wiki.archlinux.org/index.php/Gummiboot) for UEFI, [GRUB 2](https://wiki.archlinux.org/index.php/GRUB) for complicated environments
 1. Exit the chroot and recursively unmount the partitions.
