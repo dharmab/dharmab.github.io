@@ -4,7 +4,7 @@ title: Arch Linux Install Checklist
 categories: linux
 ---
 
-This is my Arch Linux installation checklist. I mostly use it as a quick reference during the rare cases I need to do a fresh install from scratch. **Do  not use this as a general installation guide!** Refer to the [Beginners' guide](https://wiki.archlinux.org/index.php/Beginners%27_guide) for a detailed step-vy-step walkthrough.
+This is my Arch Linux installation checklist. I mostly use it as a quick reference during the rare cases I need to do a fresh install from scratch. **Do  not use this as a general installation guide!** Refer to the [Beginners' guide](https://wiki.archlinux.org/index.php/Beginners%27_guide) for a detailed step-by-step walkthrough.
 
 Basic System
 ##
@@ -15,7 +15,7 @@ Basic System
 1. Mount the root partion to `/mnt`
 1. Create mount points under `/mnt` and mount partitions as necessary. If using boot, mount the EFI System Partition under /mnt/boot
 1. Select mirrors in `/etc/pacman.d/mirrorlist`
-1. Start the install process with `pacstrap -i /mnt base base-devel sudo vim wget curl rsync openssh git ifplugd expac pacserve ntp reflector`
+1. Start the install process with `pacstrap -i /mnt base base-devel sudo vim wget curl rsync openssh git ifplugd expac ntp reflector`
 1. Generate an fstab with `genfstab -p /mnt >> /mnt/etc/fstab`
 1. Chroot in with `arch-chroot`
 1. Set the hostname in `/etc/hostname`
@@ -33,6 +33,7 @@ Basic System
 1. Log into the personal account and set up the home folder
 1. Generate a mirrorlist with `reflector`
 1. Build `cower` and `pacaur` from the AUR
+1. Install `pacserve` and enable the `pacserve` service
 
 Desktop or Laptop
 ##
