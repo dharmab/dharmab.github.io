@@ -41,7 +41,4 @@ Desktop or Laptop
 1. Install GUI packages: `xorg-server xorg-server-utils xorg-xinit mesa slim i3 lxappearance elementary-icon-theme gtk-theme-flatstudio xcursor-simpleandsoft archlinux-themes-slim ttf-dejavu ttf-droid ttf-inconsolata`
 1. Install a video driver: `xf86-video-intel`, `xf86-video-nouveau`, `nvidia`, or `xf86-video-ati` as required
 1. Enable the `slim` service and reboot
-<<<<<<< HEAD
-1. Install user packages: `chromium evince file-roller gimp libreoffice mumble openjdk openvpn pcmanfm python ruby sbcl texlive-most truecrypt virtualbox vlc xterm`, plus the latest versions of Sublime Text and IntelliJ IDEA from the AUR
-=======
 1. Install user packages: `chromium evince file-roller gimp libreoffice mumble openjdk openvpn pcmanfm python ruby sbcl texlive-most truecrypt virtualbox vlc xterm`, plus the latest versions of Sublime Text and IntelliJ IDEA from the AUR
