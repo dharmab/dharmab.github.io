@@ -9,15 +9,17 @@ This is my Arch Linux installation checklist. I mostly use it as a quick referen
 Basic System
 ##
 1. Boot into the installer and establish network access
-1. Partition the drive with `cgdisk`
-1. Format the partitions with `mkfs.ext4`
+1. Partition the drive with `cgdisk`, including a 512MB EFI partition if necessary
+1. Format the partitions with `mkfs.ext4` 
+1. If using UEFI, use `mkfs.fat -F32` to format EFI system partition
 1. If using swap, use `mkswap` and `swapon` to format and enable the swap paritions
 1. Mount the root partion to `/mnt`
-1. Create mount points under `/mnt` and mount partitions as necessary. If using boot, mount the EFI System Partition under /mnt/boot
+1. Create mount points under `/mnt` and mount partitions as necessary. If using UEFI, mount the EFI System Partition under /mnt/boot
 1. Select mirrors in `/etc/pacman.d/mirrorlist`
-1. Start the install process with `pacstrap -i /mnt base base-devel sudo vim wget curl rsync openssh git ifplugd expac ntp reflector`
+1. Start the install process with `pacstrap -i /mnt base base-devel sudo vim curl rsync openssh git ifplugd ntp reflector`
 1. Generate an fstab with `genfstab -p /mnt >> /mnt/etc/fstab`
 1. Chroot in with `arch-chroot`
+1. Verfiy the contents of `/etc/fstab`
 1. Set the hostname in `/etc/hostname`
 1. Symlink the correct timezone from `/user/share/zoneinfo/` to `/etc/localtime`
 1. Set the hardware clock to store UTC time with `hwclock --systohc --utc`
@@ -33,12 +35,11 @@ Basic System
 1. Log into the personal account and set up the home folder
 1. Generate a mirrorlist with `reflector`
 1. Build `cower` and `pacaur` from the AUR
-1. Install `pacserve` and enable the `pacserve` service
 
 Desktop or Laptop
 ##
 1. Install `alsa-utils` and unmute sound with `alsamixer`
-1. Install GUI packages: `xorg-server xorg-server-utils xorg-xinit mesa slim i3 lxappearance elementary-icon-theme gtk-theme-flatstudio xcursor-simpleandsoft archlinux-themes-slim ttf-dejavu ttf-droid ttf-inconsolata`
+1. Install GUI packages: `xorg-server xorg-server-utils xorg-xinit mesa lightdm lightdm-gtk3-greeter i3 dmenu lxappearance elementary-icon-theme xcursor-simpleandsoft ttf-dejavu ttf-liberation ttf-droid ttf-inconsolata`
 1. Install a video driver: `xf86-video-intel`, `xf86-video-nouveau`, `nvidia`, or `xf86-video-ati` as required
-1. Enable the `slim` service and reboot
+1. Enable the `lightdm` service  and reboot
 1. Install user packages: `chromium evince file-roller gimp libreoffice mumble openjdk openvpn pcmanfm python ruby sbcl texlive-most truecrypt virtualbox vlc xterm`, plus the latest versions of Sublime Text and IntelliJ IDEA from the AUR
