@@ -19,7 +19,7 @@ Basic System
 1. Start the install process with `pacstrap -i /mnt base base-devel sudo vim curl rsync openssh git ifplugd ntp reflector`
 1. Generate an fstab with `genfstab -p /mnt >> /mnt/etc/fstab`
 1. Chroot in with `arch-chroot`
-1. Verfiy the contents of `/etc/fstab`
+1. Verify the contents of `/etc/fstab`
 1. Set the hostname in `/etc/hostname`
 1. Symlink the correct timezone from `/user/share/zoneinfo/` to `/etc/localtime`
 1. Set the hardware clock to store UTC time with `hwclock --systohc --utc`
@@ -42,4 +42,6 @@ Desktop or Laptop
 1. Install GUI packages: `xorg-server xorg-server-utils xorg-xinit mesa lightdm lightdm-gtk3-greeter i3 dmenu lxappearance elementary-icon-theme xcursor-simpleandsoft ttf-dejavu ttf-liberation ttf-droid ttf-inconsolata`
 1. Install a video driver: `xf86-video-intel`, `xf86-video-nouveau`, `nvidia`, or `xf86-video-ati` as required
 1. Enable the `lightdm` service  and reboot
-1. Install user packages: `chromium evince file-roller gimp libreoffice mumble openjdk openvpn pcmanfm python ruby sbcl texlive-most truecrypt virtualbox vlc xterm`, plus the latest versions of Sublime Text and IntelliJ IDEA from the AUR
+1. Install user packages: `chromium evince file-roller gimp libreoffice mumble openjdk openvpn pcmanfm gvim python ruby sbcl texlive-most truecrypt virtualbox vlc xterm`, plus the latest versions of Sublime Text and IntelliJ IDEA from the AUR
+1. Install Vundle: `git clone https://github.com/gmarik/Vundle.vim.git ~/.vim/bundle/Vundle.vim`, then `vim +PluginInstall +qall`
+1. Compile YouCompleteMe: `cd ~/.vim/bundle/YouCompleteMe`, then `./install.sh --clang-compiler`
