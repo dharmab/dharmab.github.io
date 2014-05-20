@@ -1,8 +1,8 @@
---
+---
 layout: post
 title: Sublime Text Plugins
 categories: programming
---
+---
 
 These are some Sublime Text 3 plugins I like. You can install them with [Package Control](http://sublime.wbond.net).
 
