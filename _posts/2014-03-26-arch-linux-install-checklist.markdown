@@ -21,7 +21,7 @@ Basic System
 1. Chroot in with `arch-chroot`
 1. Verify the contents of `/etc/fstab`
 1. Set the hostname in `/etc/hostname`
-1. Symlink the correct timezone from `/user/share/zoneinfo/` to `/etc/localtime`
+1. Symlink the correct timezone from `/usr/share/zoneinfo/` to `/etc/localtime`
 1. Set the hardware clock to store UTC time with `hwclock --systohc --utc`
 1. Uncomment `en_US.UTF-8` in `/etc/locale.gen`, run `locale-gen` and create `/etc/locale.conf` with content `LANG=en_US.UTF-8`
 1. Write netctl profiles in `/etc/netctl` and enable `netctl-ifplugd@interface` and `netctl-auto@interface` services as appropriate
@@ -43,5 +43,6 @@ Desktop or Laptop
 1. Install a video driver: `xf86-video-intel`, `xf86-video-nouveau`, `nvidia`, or `xf86-video-ati` as required
 1. Enable the `lightdm` service  and reboot
 1. Install user packages: `chromium evince file-roller gimp libreoffice mumble openjdk openvpn pcmanfm gvim python ruby sbcl texlive-most truecrypt virtualbox vlc xterm`, plus the latest versions of Sublime Text and IntelliJ IDEA from the AUR
-1. Install Vundle: `git clone https://github.com/gmarik/Vundle.vim.git ~/.vim/bundle/Vundle.vim`, then `vim +PluginInstall +qall`
-1. Compile YouCompleteMe: `cd ~/.vim/bundle/YouCompleteMe`, then `./install.sh --clang-compiler`
+1. Install Vundle plugns: `vim +PluginInstall +qall`
+1. Compile YouCompleteMe: `~/.vim/bundle/YouCompleteMe/install.sh --clang-completer`
+
