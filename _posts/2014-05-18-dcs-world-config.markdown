@@ -9,7 +9,7 @@ These are configuration file changes I use to improve DCS World.
 Labels
 =
 
-The human eye has much greater resolution than the DCS World graphics engine or a desktop monitor can simulate. In teh real world, one can see individual vehicles moving from an airplane window at 30,000 feet. In DCS, you're lucky if you see an object a few miles away, since it's just a few pixels on the screen. Unfortunately, the default labels go too far in the opposite direction and make the sim very easy. This modified labels config adds a gray dot to objects to make them more visible at range, without giving critical information such as weapon type or IFF.
+The human eye has much greater resolution than the DCS World graphics engine or a desktop monitor can simulate. In the real world, one can see individual vehicles moving from an airplane window at 30,000 feet. In DCS, you're lucky if you see an object a few miles away, since it's just a few pixels on the screen. Unfortunately, the default labels go too far in the opposite direction and make the sim very easy. This modified labels config adds a gray dot to objects to make them more visible at range, without giving critical information such as weapon type or IFF.
 
 	--Config\View\Labels.lua
     AirOn = true
@@ -39,9 +39,9 @@ The human eye has much greater resolution than the DCS World graphics engine or 
 MFCD Views
 =
 
-If you only have a single monitor, being able to read the MFCDs can be trickey (even with a head tracker). This config puts the MFCDs displays into overlays in the corners of the monitor.
+If you only have a single monitor, being able to read the MFCDs can be tricky (even with a head tracker). This config puts the MFCDs displays into overlays in the corners of the monitor.
 
-![Example screenshot](https://i.imgur.com/nXh46.jpg)
+<a href="https://i.imgur.com/nXh46.jpg"><img alt="Example screenshot" height="480" src="https://i.imgur.com/nXh46.jpg" /></a>
 
 	--Config\MonitorSetup\CameraWithMFCDs.lua
 	!_  = function(p) return p; end;
