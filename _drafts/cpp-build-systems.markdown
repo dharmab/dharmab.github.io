@@ -6,15 +6,7 @@ categories: programming c++
 
 Last week, I started work on a cross-platform C++ project (which I hope to be able to write more about in several weeks). I don't actually know much C++; neither does anyone else on my team. We're using this project to improve our abilities in that area.
 
-One of the first hurdles we had to address was how to build our project across several platforms. We want to deploy a single codebase to Windows, OSX and Linux. Also, we had a variety of developers and development environments:
-
-* A .NET developer and graphics programmer who uses Visual Studio exclusively
-
-* A polyglot developer who uses both Windows and OSX
-
-* A web developer
-
-* Myself, a polyglot Linux and Windows developer who uses everything from Visual Studio and IntelliJ IDEA to barebones Vim.
+One of the first hurdles we had to address was how to build our project across several platforms. We want to deploy a single codebase to Windows, OSX and Linux. Also, we had a number  of developers with different backgrounds and development environments.
 
 The initial approach we attempted was to maintain a Visual Studio 2013 project, an Apple XCode project and a Makefile. We very quickly realized that maintaining three build systems was not feasible and research other solutions. Based on our research, we then explored two solutions: CMake and Premake.
 
