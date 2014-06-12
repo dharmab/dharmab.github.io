@@ -26,6 +26,6 @@ While Pacman is fantastic at automating most of the upgrade work, manual interve
 
 That's not even including new versions of Qt and Perl that may require some packages to be rebuilt, and a change to how Haskell packages are managed in Arch.
 
-A user who doesn't upgrade for months at a time will have a laundry list of manual interventions to read and attempt. If they go for too long, there is no guarantee that a simple upgrade path will exist (e.g. attempting to upgrade from initscripts to systemd after the transition period). Since partial upgrades are unsupported, they won't be able to only upgrade one or two packages that they need.
+A user who doesn't upgrade for months at a time will have a laundry list of manual interventions to read and attempt. If they go for too long, there is no guarantee that a simple upgrade path will exist (e.g. attempting to upgrade from initscripts to systemd after the transition period). Since partial upgrades are unsupported, they won't be able to only upgrade one or two packages that they need. And if the simply forego upgrades, they'll be stuck with increasingly outdated appliations, no new or improved hardware support, and unpatched security vulnerabilties.
 
 I love Arch Linux, but for this use case it's not the right choice. My personal choice would be Debian Stable, but there are lots of other great options. Just please, don't use Arch without internet.
