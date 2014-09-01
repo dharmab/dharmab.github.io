@@ -23,6 +23,7 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 100%; }
 
 h1 { margin-bottom: 1em; }
+h2 { font-size: 180%; }
 p { margin: 1em 0; }
 
 a         { color: #00a; }
@@ -44,10 +45,9 @@ a:visited { color: #a0a; }
 }
 
 .posts span {
-  color: #aaa;
-  font-family: Monaco, "Courier New", monospace;
   font-size: 80%;
 }
+
 
 /*****************************************************************************/
 /*
@@ -56,9 +56,9 @@ a:visited { color: #a0a; }
 /*****************************************************************************/
 
 .site {
-  font-size: 115%;
+  font-size: 150%;
   text-align: justify;
-  width: 42em;
+  width: 75%;
   margin: 3em auto 2em;
   line-height: 1.5em;
 }
@@ -128,20 +128,64 @@ a:visited { color: #a0a; }
 /*****************************************************************************/
 
 /* standard */
+.header title {
+  font-size: 3.0em;
+}
+
+.post h1, .post h2, .post h3 {
+  padding: 0 1em;
+}
+
+.post h1 {
+  font-size: 2.0em;
+}
+
+.post h2 {
+  font-size: 1.7em;
+}
+
+.post h3 {
+  font-size: 1.4em;
+}
+
+.post p {
+  padding: 0 2em;
+  line-height: 150%;
+  font-size: 1.2em;
+}
+
+.post blockquote {
+  padding: 0 4em;
+  line-height: normal;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%
+  font-size: 0.9em;
+  font-style: italic;
+}
+
 .post pre {
   border: 1px solid #ddd;
-  background-color: #eef;
+  background-color: #eee;
   padding: 0 .4em;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 2em;
+  width: 85%;
 }
 
 .post ul, .post ol {
+  padding: 0 3em;
   margin-left: 1.35em;
+  font-size: 1.2em;
+  line-height: 150%;
 }
 
 .post code {
   border: 1px solid #ddd;
-  background-color: #eef;
-  padding: 0 .2em;
+  background-color: #eee;
+  padding: 0 0;
+  font-family: Inconsolata, Consolas, Droid Sans Mono, monospace;
 }
 
 .post pre code {
