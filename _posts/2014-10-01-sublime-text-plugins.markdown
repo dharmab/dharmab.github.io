@@ -48,4 +48,4 @@ Cleans up extra trailing spaces.
 
 ###[Sublime SFTP](http://wbond.net/sublime_packages/sftp) (Commercial)
 
-I don't use this very often, but I've had a few classes where we were required to use the school's webserver with very limited permissions and editors available. I used Sublime SFTP to use my local copy of Sublime to edit files remotely.
+I don't use this very often, but I've had a few classes where we were required to use the school's webserver with very limited permissions and editors available. I used Sublime SFTP to use my local copy of Sublime to edit files remotely. If I have control of my environment, I prefer to use [Vagrant](http://www.vagrantup.com) to manage development environments and [Ansible](https://www.ansible.com) to configure the development and production environments.
