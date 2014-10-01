@@ -6,6 +6,14 @@ categories: programming
 
 These are some Sublime Text 3 plugins I like. You can install them with [Package Control](http://sublime.wbond.net).
 
+*Updated 2014-10-01*
+
+### Languages
+
+* [SQF](https://sublime.wbond.net/packages/SQF%20Language) - Scripting language used in the Arma games
+* [INI](https://sublime.wbond.net/packages/INI) - INI files and systemd service units
+* [CMake](https://sublime.wbond.net/packages/CMake) - CMake build system
+
 ###[amCoder](https://sublime.wbond.net/packages/Theme%20-%20amCoder)
 
 A nice theme to match Monokai. Previously, I used [Soda](https://sublime.wbond.net/packages/Theme%20-%20Soda).
@@ -26,9 +34,17 @@ A handy tool for checking my Markdown syntax when I write READMEs or this blog.
 
 Normally I use Git from the shell, but this is handy for quickly adding a file.
 
-###[Sublime Aligment](http://wbond.net/sublime_packages/alignment)
+###[GitGutter](https://sublime.wbond.net/packages/GitGutter)
+
+Having a quick indicator of which lines changed is essential for code review.
+
+###[AlignTab](https://sublime.wbond.net/packages/AlignTab)
 
 Makes formatting source code easy.
+
+###[Trimmer](https://sublime.wbond.net/packages/Trimmer)
+
+Cleans up extra trailing spaces.
 
 ###[Sublime SFTP](http://wbond.net/sublime_packages/sftp) (Commercial)
 
