@@ -6,7 +6,7 @@ include:
 nodejs:
   pkg.installed
 
-jekyll:
+github-pages:
   gem.installed:
     - user: vagrant
     - require:

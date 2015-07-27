@@ -1,3 +1,3 @@
 base:
   '*':
-    - jekyll
+    - github-pages
