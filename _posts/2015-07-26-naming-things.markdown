@@ -24,7 +24,7 @@ A great example might be `database-1.production.aws.example.com` and `billingapi
 
 Use CNAMEs to alias easy-to-remember names to your servers. For example, `jira-1.production.aws.example.com` might have the following CNAMEs:
 
-* `jira.example.com`: Easy to remember CNAME used by administrators and administrators
+* `jira.example.com`: Easy to remember CNAME used by administrators and developers
 * `bugs.example.com`: CNAME provided to bug reporters
 * `help.example.com`: CNAME provided to helpdesk staff and end users
 
@@ -32,7 +32,7 @@ Don't provide the A Record to users. If you want to do a rebuild of your Jira se
 
 ### Migrate and Be Consistent
 
-Pick a good naming scheme early on and stick with it. Changing a naming scheme can involve a lot of work and should not be a common occurrence. To migrate existing hosts CNAME the old name to the servers during a transition period and notify effected parties that the old name will be deprecated. On the deprecation date, change the CNAME to point to an HTTP 301 permanent redirect for a period of time. Check the logs on that redirect for a reasonable period of time. If the redirect is still regularly used, contact the responsible parties. For high-availability services, consider leaving the redirect up permanently.
+Pick a good naming scheme early on and stick with it. Changing a naming scheme can involve a lot of work and should not be a common occurrence. To migrate existing hosts, set the old name as a CNAME and notify effected parties that the old name will be deprecated. On the deprecation date, change the CNAME to point to a redirect to the new friendly CNAME (e.g. HTTP 301). Check the logs on that redirect for a reasonable period of time. If the redirect is still regularly used, contact the responsible parties. For high-availability services, consider leaving the redirect up permanently.
 
 Once the environment is migrated, remain consistent. An inconsistent naming scheme can cause frustration and additional detective work. Document the naming policy and enforce it on your team.
 
