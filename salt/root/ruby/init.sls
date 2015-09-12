@@ -1,44 +1,49 @@
 {% set home = '/home/vagrant' -%}
-{% set rbenv_github_repo = 'https://github.com/sstephenson/rbenv.git' %}
-{% set ruby_build_github_repo = 'https://github.com/sstephenson/ruby-build.git' %}
 {% set ruby_version = '2.2.2' -%}
 
 git:
-  pkg.installed
+  pkg.installed:
+    - name: git
 
 rbenv:
   git.latest:
-    - name: {{ rbenv_github_repo }}
+    - name: "https://github.com/sstephenson/rbenv.git"
     - target: '{{ home }}/.rbenv'
     - user: vagrant
+    - require:
+      - pkg: git
   file.append:
     - name: '{{ home }}/.bash_profile'
     - text: 
       - 'export PATH="$HOME/.rbenv/bin:$PATH"'
       - 'eval "$(rbenv init -)"'
+  cmd.run:
+    - name: rbenv install {{ ruby_version }}
+    - user: vagrant
+    - creates: '{{ home }}/.rbenv/versions/{{ ruby_version }}'
+    - require:
+      - git: rbenv
+      - git: ruby_build
+      - file: rbenv
 
-ruby-build:
+rbenv_global:
+  cmd.run:
+    - name: rbenv global {{ ruby_version }}
+    - user: vagrant
+    - require:
+      - cmd: rbenv
+
+ruby_build:
   pkg.installed:
     - pkgs:
-      # Build dependency
+      # Build dependencies
+      - readline-devel
       - openssl-devel
   git.latest:
-    - name: {{ ruby_build_github_repo }}
+    - name: "https://github.com/sstephenson/ruby-build.git"
     - target: '{{ home }}/.rbenv/plugins/ruby-build'
     - user: vagrant
     - require:
       - git: rbenv
-
-rbenv install {{ ruby_version }}:
-  cmd.run:
-    - user: vagrant
-    - creates: '{{ home }}/.rbenv/versions/{{ ruby_version }}'
-    - require:
-      - git: ruby-build
-
-rbenv global {{ ruby_version }}:
-  cmd.run:
-    - user: vagrant
-    - require:
-      - git: ruby-build
+      - pkg: ruby_build
 
