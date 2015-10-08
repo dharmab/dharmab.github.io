@@ -172,10 +172,11 @@ a:visited { color: #a0a; }
 }
 
 .post ul, .post ol .post li {
-  padding: 0 3em;
+  padding: 0 0.5em;
   margin-left: 1.35em;
   font-size: 1.0em;
   line-height: 150%;
+  list-style-type: disc;
 }
 
 .post code {
