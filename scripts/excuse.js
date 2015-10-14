@@ -1,4 +1,5 @@
 var phrases = [
+    "TNETENNBA",
     "Clock speed",
     "Solar flares",
     "Electromagnetic radiation from satellite debris",
