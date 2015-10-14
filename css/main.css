@@ -208,5 +208,11 @@ a:visited { color: #a0a; }
 /*****************************************************************************/
 
 .excuse {
+    margin: 2em;
     font-size: 250%;
+    line-height: 1.2em;
+}
+
+.excuse-footnote {
+    font-size: 100%;
 }
