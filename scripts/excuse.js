@@ -427,7 +427,7 @@ var phrases = [
     "You've been infected by the Telescoping Hubble virus",
     "Your EMAIL is now being delivered by the USPS",
     "Your Flux Capacitor has gone bad",
-    "Your Pentium has a heating problem - try cooling it with ice cold water."
+    "Your Pentium has a heating problem - try cooling it with ice cold water.",
     "Your cat tried to eat the mouse",
     "Your computer hasn't been returning all the bits it gets from the Internet",
     "Your computer's contract is set to expire at midnight",
