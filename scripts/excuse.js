@@ -158,7 +158,7 @@ var phrases = [
     "Kernel panic: write-only-memory (/dev/wom0) capacity exceeded",
     "Keyboard Actuator Failure.  Order and Replace",
     "Knot in cables caused data stream to become twisted and kinked",
-    "Lacks RFC-1149 Compliance"
+    "Lacks RFC-1149 Compliance",
     "Lawn mower blade in your fan need sharpening",
     "Le0: no carrier: transceiver cable problem?",
     "Leap second overloaded RHEL6 servers",
