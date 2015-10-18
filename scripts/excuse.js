@@ -427,7 +427,7 @@ var phrases = [
     "You've been infected by the Telescoping Hubble virus",
     "Your EMAIL is now being delivered by the USPS",
     "Your Flux Capacitor has gone bad",
-    "Your Pentium has a heating problem - try cooling it with ice cold water."
+    "Your Pentium has a heating problem - try cooling it with ice cold water.",
     "Your cat tried to eat the mouse",
     "Your computer hasn't been returning all the bits it gets from the Internet",
     "Your computer's contract is set to expire at midnight",
@@ -444,6 +444,21 @@ var phrases = [
     "lp0 on fire",
 ];
 
+var lunchPhrases = [
+    "Operators out to lunch",
+];
+
+function getRandomPhrase(phraseList) {
+    var randomPhraseIndex = Math.round(Math.random() * (phraseList.length - 1));
+    return phraseList[randomPhraseIndex]
+}
+
+
+phrase = "Excuse generator broken"
+if (new Date().getHours() === 12)
+    phrase = getRandomPhrase(lunchPhrases)
+else
+    phrase = getRandomPhrase(phrases)
+
 var excuse = document.getElementById("excuse");
-var randomPhraseIndex = Math.round(Math.random() * (phrases.length - 1));
-excuse.textContent = phrases[randomPhraseIndex];
+excuse.textContent = phrase
