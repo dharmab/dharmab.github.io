@@ -448,6 +448,7 @@ var phrases = [
 
 var lunchPhrases = [
     "Operators out to lunch",
+    "Technicians consuming nutrients",
 ];
 
 function getRandomPhrase(phraseList) {
