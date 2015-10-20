@@ -388,7 +388,6 @@ var phrases = [
     "Violation of second law of robotics",
     "Violation of third law of robotics",
     "Violation of zeroth law of robotics",
-    "Virus due to computers having unsafe sex",
     "Virus transmitted from computer to sysadmins",
     "Waste water tank overflowed onto computer",
     "We already sent around a notice about that",
