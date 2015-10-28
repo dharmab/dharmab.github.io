@@ -214,6 +214,7 @@ var phrases = [
     "PEBKAC (Problem Exists Between Keyboard And Chair)",
     "POSIX compliance problem",
     "Packet held up at customs",
+    "Packets are sad - RFC 5841",
     "Paradigm shift...without a clutch",
     "Parallel processors running perpendicular today",
     "Party-bug in the Aloha protocol",
