@@ -2,7 +2,7 @@
 # vi: set ft=ruby :
 
 Vagrant.configure(2) do |config|
-  config.vm.box = "puppetlabs/centos-6.6-64-nocm"
+  config.vm.box = "dharmab/centos7"
   config.vm.synced_folder "salt/root/", "/srv/salt/"
   config.vm.network "forwarded_port", guest: 4000, host: 4000
   
