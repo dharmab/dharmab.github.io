@@ -56,7 +56,8 @@ You should do all of the following yourself:
 - [T-CLOCS](https://www.youtube.com/watch?v=YyxU1jTUz-k). Your safety course should have taught you how to do this, and you should do this every couple of weeks or before you go on a long ride.
 - [Cleaning and lubricating the chain](https://www.youtube.com/watch?v=XgPpLKCUlbA). Do this every 300-500 miles, or sooner if you've been riding in wet conditions.
 - Basic accessory installation. Aftermarket levers, luggage, frame sliders, etc.
-- Fluids: Checking and changing oil, coolant, brake fluid. All are easy to do and you'll save tons of money on labor.
+- Fluids: Checking and changing oil, coolant, brake fluid and so on. All are easy to do and you'll save tons of money on labor.
+- Cables: You should be able to adjust and replace your clutch and throttle cables.
 - Brakes pads and rotors are relatively easy to do yourself.
 - If your bike is carbureted, learning to clean, tune and jet the carbs yourself will save you a lot of time and money.
 
