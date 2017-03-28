@@ -1,4 +1,4 @@
 name: Dharma B
 rouge: true
-exclude: 
+exclude:
     - salt

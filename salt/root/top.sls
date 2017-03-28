@@ -1,3 +1,0 @@
-base:
-  '*':
-    - github-pages
