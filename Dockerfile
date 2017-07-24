@@ -1,4 +1,6 @@
-FROM jekyll/jekyll:latest
+FROM ruby:2-alpine
+
+RUN apk update && apk add g++ make libffi-dev nodejs
 
 ADD Gemfile /srv/jekyll/
 WORKDIR /srv/jekyll
