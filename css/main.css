@@ -163,7 +163,8 @@ a:visited { color: #a0a; }
 
 .post pre {
   border: 1px solid #ddd;
-  background-color: #eee;
+  background-color: #272822;
+  color: #f8f8f2;
   padding: 0 .4em;
   margin-left: auto;
   margin-right: auto;
@@ -181,7 +182,8 @@ a:visited { color: #a0a; }
 
 .post code {
   border: 1px solid #ddd;
-  background-color: #eee;
+  background-color: #272822;
+  color: #f8f8f2;
   padding: 0 0;
   font-family: Inconsolata, Consolas, Droid Sans Mono, monospace;
 }
@@ -194,12 +196,13 @@ a:visited { color: #a0a; }
 /* terminal */
 .post pre.terminal {
   border: 1px solid #000;
-  background-color: #333;
-  color: #FFF;
+  background-color: #272822;
+  color: #f8f8f2;
 }
 
 .post pre.terminal code {
-  background-color: #333;
+  background-color: #272822;
+  color: #f8f8f2;
 }
 
 /*****************************************************************************/
