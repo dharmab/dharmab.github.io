@@ -151,7 +151,7 @@ a:visited {
     border: 1px solid #ddd;
     background-color: #272822;
     color: #f8f8f2;
-    padding: 0 0;
+    padding: 0 .2em 0 .2em;
     font-family: Inconsolata, Consolas, Droid Sans Mono, monospace;
 }
 .post pre code {
