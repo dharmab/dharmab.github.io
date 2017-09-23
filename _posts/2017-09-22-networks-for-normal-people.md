@@ -14,7 +14,7 @@ We think of computers as being abstract magic boxes, but they are made from real
 - Cell phones send a radio signal to a cell tower
 - Wi-fi devices send a radio signal to a wi-fi access point
 - Devices plugged into Ethernet networks send electrical signals over a copper wire
-- Between a typical home and the rest of the internet is a mix of copper wires and light pulses send through optical fibes
+- Between a typical home and the rest of the internet is a mix of copper wires and light pulses sent through optical fibers
 
 While you don't need to understand radio protocols or know how to crimp an Ethernet cable, you should be aware of how limitations in these physical signals can cause issues. Some common examples:
 
