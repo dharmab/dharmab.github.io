@@ -137,7 +137,7 @@ Now that we know how to connect two computers and make them talk, let's build a 
 
 ![]({{ site.url }}/assets/network/3-computers.png)
 
-When Alice sends a message over the wire, the electrical signal will be seen by both Bob and Alice. This is okay if the message is "Let's get burgers for lunch!" but terrible if the message is "Bob, did you order the cake for Carol's surprise party?". Clearly, we need a better solution.
+When Alice sends a message over the wire, the electrical signal will be seen by both Bob and Carol. This is okay if the message is "Let's get burgers for lunch!" but terrible if the message is "Bob, did you order the cake for Carol's surprise party?". Clearly, we need a better solution.
 
 Let's give each of the computers a unique number to identify it. There can be lots of computers on a network, so it needs to be a really long number. If we wrote it down in decimal, it would run off the screen, so we'll encode it in **hexadecimal**, which is more compact. This is called a **Media Access Control address**, or **MAC address** for short.
 
