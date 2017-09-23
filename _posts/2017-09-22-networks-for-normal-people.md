@@ -62,7 +62,7 @@ Samuel Morse developed Morse code to solve that problem by combining different t
 0110100001100101011011000110110001101111
 ```
 
-This computer has been programmed to know that the signal is encoded using [ASCII](https://en.wikipedia.org/wiki/ASCII). It knows that ASCII is an 8-bit encoding, meaning every group of eight bits should be read as a number. If you like, you can look up how to convert from binary to "normal" decimal numbers, for for now just trust my conversions.
+This computer has been programmed to know that the signal is encoded using [ASCII](https://en.wikipedia.org/wiki/ASCII). It knows that ASCII is an 8-bit encoding, meaning every group of eight bits should be read as a number. If you like, you can look up how to convert from binary to "normal" decimal numbers. For now, just trust my conversions.
 
 ```
 binary     decimal
@@ -177,7 +177,7 @@ Port | Status       | MAC
 7    | DISCONNECTED | ???
 ```
 
-It knows that ports 0, 1 and 4 are connected to other computers because there's a weak electrical signal on those wires even when no messages are being sent (See the Lies section under Basic Communication). It knows that the other ports are not connected because there's no signal on those lines at all. It also knows that the computer on port 0 has the MAC address `8D:63:5E:2D:D2:53`, because it was in the message. What it doesn't know is which wire the message to send. To solve this problem, it sends the following message on ports 1 and 4:
+It knows that ports 0, 1 and 4 are connected to other computers because there's a weak electrical signal on those wires even when no messages are being sent (See the Lies section under Basic Communication). It knows that the other ports are not connected because there's no signal on those lines at all. It also knows that the computer on port 0 has the MAC address `8D:63:5E:2D:D2:53`, because it was in the message. What it doesn't know is which wire the message to send. To solve this problem, it **broadcasts** the following message on every port:
 
 ```
 ARE YOU DD:51:C3:09:74:AD?
@@ -189,7 +189,7 @@ Bob's computer sends the reply:
 YES
 ```
 
-Carol's computer simply ignores the message. The switch updates its MAC table:
+Alice and Carol's computers simply ignore the message. The switch updates its MAC table:
 
 ```
 Port | Status       | MAC
@@ -232,7 +232,7 @@ Port | Status       | MAC
 7    | DISCONNECTED | ???
 ```
 
-If any message is sent through the switch with an unknown MAC address, the switch will broadcast it to ports 2 and 3... which will send the messages in a loop back to the switch... where they will be broadcast again... and loop again. This loop will continue forever, until the switch is turned off and on again to clear its memory. If enough of these messages pass through the switch, the switch will run out of memory trying to hold all of the looping messages and crash, taking down the network. This is called a **broadcast storm** and is one of the easiest ways to take down a basic network. There are ways to prevent broadcast storms from happening (such as with Spanning Tree Protocol, Layer 3 filtering, broadcast domain segmentation and smart switches), but many home and small business networks don't have those preventative measures in place!
+If any message is sent through the switch with an unknown MAC address, the switch will broadcast a on all ports, including 2 and 3... which will send the broadcasts in a loop back to the switch... where they will be broadcast again... and loop again. This loop will continue forever, until the switch is turned off and on again to clear its memory. If enough of these messages pass through the switch, the switch will run out of memory trying to hold all of the looping broadcasts and crash, taking down the network. This is called a **broadcast storm** and is one of the easiest ways to take down a basic network. There are ways to prevent broadcast storms from happening (such as with Spanning Tree Protocol, Layer 3 filtering, broadcast domain segmentation and smart switches), but many home and small business networks don't have those preventative measures in place!
 
 ## Lies
 
