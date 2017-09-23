@@ -232,7 +232,13 @@ Port | Status       | MAC
 7    | DISCONNECTED | ???
 ```
 
-If any message is sent through the switch with an unknown MAC address, the switch will broadcast a on all ports, including 2 and 3... which will send the broadcasts in a loop back to the switch... where they will be broadcast again... and loop again. This loop will continue forever, until the switch is turned off and on again to clear its memory. If enough of these messages pass through the switch, the switch will run out of memory trying to hold all of the looping broadcasts and crash, taking down the network. This is called a **broadcast storm** and is one of the easiest ways to take down a basic network. There are ways to prevent broadcast storms from happening (such as with Spanning Tree Protocol, Layer 3 filtering, broadcast domain segmentation and smart switches), but many home and small business networks don't have those preventative measures in place!
+If any message is sent through the switch with an unknown MAC address, the switch will broadcast a on all ports, including 2 and 3... which will send the broadcasts in a loop back to the switch... where they will be broadcast again... and loop again. This loop will continue forever, until the switch is turned off and on again to clear its memory. If enough of these messages pass through the switch, the switch will run out of memory trying to hold all of the looping broadcasts and crash, taking down the network. 
+
+This is called a **broadcast storm** and is one of the easiest ways to take down a basic network. There are ways to prevent broadcast storms from happening (such as with Spanning Tree Protocol, Layer 3 filtering, broadcast domain segmentation and smart switches), but many home and small business networks don't have those preventative measures in place!
+
+Sometimes, a loop isn't so obvious. In this network, the loop is across three switches. Each switch propagates the broadcasts to its neighbors. It's obvious on paper, but when tracing the wires through a building in the real world it might not be so clear.
+
+![]({{ site.url }}/assets/network/broadcast-storm.png)
 
 ## Lies
 
