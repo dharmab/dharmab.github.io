@@ -20,7 +20,10 @@ While you don't need to understand radio protocols or know how to crimp an Ether
 
 - An Ethernet cable is only certified to provide a signal over 100 meters. Any further and you may experience signal loss, and will have to put some kind of powered device in the line to repeat (boost) the signal.
 - Radio waves can travel through walls, but lose energy when doing so. The material and thickness of the wall influences the signal loss- drywall is thin and absorbs less than a thick foundational wall. I once worked for a company which took over the former offices of the District Attorney- their walls were armored for witness protection purposes, and wi-fi signals hardly got through!
-- Radio waves bounce off walls and other surfaces. This can cause them to meet up again and interfere with themselves, causing "dead zones" in strange spots.
+- Radio waves bounce off walls and other surfaces. This can cause them to meet up again and interfere with themselves, causing "dead zones" in strange spots. 
+
+![]({{ site.url }}/assets/network/wifi-map.gif)
+
 - Many new wi-fi devices are dual-band and have options to operate at 2.4GHz or at 5GHz. Generally, 2.4GHz signals can travel father, while 5GHz signals are capable of high transfer rates. However, many consumer appliances like cordless phones and garage doors operate on 2.4GHz as well. It's not unheard of for a home's wifi to cut out when someone opens the garage!
 - Speaking of interference, anyone who's lived in an apartment building knows how many devices using the same frequency can interfere with each other.
 - On a larger scale, large solar flares can cause massive amounts of interference in all sorts of electrical systems. I once had an executive ask why the wifi had been terrible for a few days and found out that the sun was unusually active that week.
