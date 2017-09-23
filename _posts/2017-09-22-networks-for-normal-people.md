@@ -215,6 +215,25 @@ The switch has Alice's MAC address stored in it's MAC table, and can relay the m
 
 Carol is none the wiser- her computer knows that a message was passed between other computers on the network, but it doesn't know what was in the message.
 
+
+## Death by a Thousand Packets: Broadcast Storms
+
+What happens when you plug an Ethernet cable in ports 2 and 3, creating a loop?
+
+```
+Port | Status       | MAC
+0    | CONNECTED    | 8D:63:5E:2D:D2:53
+1    | CONNECTED    | 5B:69:40:EA:3B:45
+2    | CONNECTED    | ??? (Looped to port 3)
+3    | CONNECTED    | ??? (Looped to port 2)
+4    | CONNECTED    | DD:51:C3:09:74:AD
+5    | DISCONNECTED | ???
+6    | DISCONNECTED | ???
+7    | DISCONNECTED | ???
+```
+
+If any message is sent through the switch with an unknown MAC address, the switch will broadcast it to ports 2 and 3... which will send the messages in a loop back to the switch... where they will be broadcast again... and loop again. This loop will continue forever, until the switch is turned off and on again to clear its memory. If enough of these messages pass through the switch, the switch will run out of memory trying to hold all of the looping messages and crash, taking down the network. This is called a **broadcast storm** and is one of the easiest ways to take down a basic network. There are ways to prevent broadcast storms from happening (such as with Spanning Tree Protocol, Layer 3 filtering, broadcast domain segmentation and smart switches), but many home and small business networks don't have those preventative measures in place!
+
 ## Lies
 
 MAC addresses intended to be unique, but aren't. It's really easy to spoof a MAC address- just reprogram the computer to say "YES" to "ARE YOU \<MAC address you want to spoof\>". For this reason, MAC addresses aren't secure ways to hide messages, but when used as intended they do a great job at cutting down on network traffic without using up lots of CPU and memory.
