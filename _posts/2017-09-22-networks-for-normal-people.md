@@ -177,7 +177,7 @@ Port | Status       | MAC
 7    | DISCONNECTED | ???
 ```
 
-It knows that ports 0, 1 and 4 are connected to other computers because there's a weak electrical signal on those wires even when no messages are being sent (See the Lies section under Basic Communication). It knows that the other ports are not connected because there's no signal on those lines at all. It also knows that the computer on port 0 has the MAC address `8D:63:5E:2D:D2:53`, because it was in the message. What it doesn't know is which wire the message to send. To solve this problem, it **broadcasts** the following message on every port:
+It knows that ports 0, 1 and 4 are connected to other computers because there's a weak electrical signal on those wires even when no messages are being sent (See the Lies section under Basic Communication). It knows that the other ports are not connected because there's no signal on those lines at all. It also knows that the computer on port 0 has the MAC address `8D:63:5E:2D:D2:53`, because it was in the message. What it doesn't know is which wire the message to send. To solve this problem, it **broadcasts** the following message on every other:
 
 ```
 ARE YOU DD:51:C3:09:74:AD?
@@ -189,7 +189,7 @@ Bob's computer sends the reply:
 YES
 ```
 
-Alice and Carol's computers simply ignore the message. The switch updates its MAC table:
+Carol's computer simply ignores the message. The switch updates its MAC table:
 
 ```
 Port | Status       | MAC
@@ -252,9 +252,10 @@ Most software doesn't actually address messages by MAC address- that's handled b
 
 - IP addresses (IPv4 and IPv6)
 - Routing
+- DHCP
+- DNS
 - Protocols (ICMP, TCP, and UDP)
 - Firewalls
-- DNS
 - Time (NTP)
 - HTTP
 - Encryption (Symmetric, Assymetric, HTTPS/Certificates)
