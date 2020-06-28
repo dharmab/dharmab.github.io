@@ -39,5 +39,8 @@ games, books and podcasts, comic books/manga/manhua.
 
 ## Contact
 
-You can get in touch with me by email at FIRST.LAST at gmail.com. I am not
-active on social media.
+You can get in touch with me by email at FIRST.LAST at gmail.com.
+
+[My GitHub is here.](https://github.com/dharmab)
+
+I am not active on social media.
