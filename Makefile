@@ -1,19 +1,11 @@
-.PHONY: develop
+.PHONY=website clean
 
-default: serve
+CONVERT=_scripts/convert-md-to-html.sh
 
-build:
-	docker build -t dharmab.github.io .
+website: index.html
 
-serve: build
-	docker run -it --rm \
-	-p 4000:4000 \
-	-v $(shell pwd):/srv/jekyll \
-	dharmab.github.io
+index.html: _src/index.md
+	$(CONVERT) _src/index.md index.html
 
-draft: build
-	docker run -it --rm \
-	-p 4000:4000 \
-	-v $(shell pwd):/srv/jekyll \
-	dharmab.github.io \
-	bundle exec jekyll serve --host 0.0.0.0 --draft
+clean:
+	rm -f *.html
