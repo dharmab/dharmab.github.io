@@ -22,9 +22,17 @@ systems.
 ## Hobbies
 
 I'm an avid adventure motorcyclist. I enjoy touring by motorcycle and
-[motocamping](http://reddit.com/r/motocamping). Prior to the COVID-19 pandemic,
-I traveled on at least one multi-thousand-mile motorcycle tour each year. I
-also do most of my own wrenching and maintain [technical documentation on my
+[motocamping](http://reddit.com/r/motocamping). 
+
+![](assets/motocamping.webp "A picture of my motorcycle and tent in a field of
+sagebrush."){width=100%}
+
+Prior to the COVID-19 pandemic, I traveled on at least one interstate
+motorcycle tour each year.
+
+<div style="width:100%;height:0px;position:relative;padding-bottom:56.250%;"><iframe src="https://streamable.com/e/6omm0" frameborder="0" width="100%" height="100%" allowfullscreen style="width:100%;height:100%;position:absolute;left:0px;top:0px;overflow:hidden;"></iframe></div>
+
+I also do most of my own wrenching and maintain [technical documentation on my
 BMW F750GS](https://github.com/dharmab/bmw-f750gs-f850gs).
 
 I collect watches. Favorites in my collection include a [Monta
