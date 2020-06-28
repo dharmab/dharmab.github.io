@@ -5,6 +5,9 @@ title: Dharma Bellamkonda
 
 My name is Dharma Bellamkonda. I'm a twentysomething living in Utah.
 
+![](assets/avatar.webp "A picture of me wearing a hat, ear protection and a face
+mask.")
+
 ## Professional Life
 
 I am a software engineer. Currently, I'm a Senior Cloud Engineer at
