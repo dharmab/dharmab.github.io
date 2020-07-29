@@ -28,7 +28,10 @@ I'm an avid adventure motorcyclist. I enjoy touring by motorcycle and
 Prior to the COVID-19 pandemic, I traveled on at least one interstate
 motorcycle tour each year.
 
-<div style="width:100%;height:0px;position:relative;padding-bottom:56.250%;"><iframe src="https://streamable.com/e/6omm0" frameborder="0" width="100%" height="100%" allowfullscreen style="width:100%;height:100%;position:absolute;left:0px;top:0px;overflow:hidden;"></iframe></div>
+<div style="width:100%;height:0px;position:relative;padding-bottom:56.250%;">
+  <iframe src="https://streamable.com/e/6omm0" frameborder="0" width="100%" height="100%" allowfullscreen style="width:100%;height:100%;position:absolute;left:0px;top:0px;overflow:hidden;">
+  </iframe>
+</div>
 
 I also do most of my own wrenching and maintain [technical documentation on my
 BMW F750GS](https://github.com/dharmab/bmw-f750gs-f850gs).

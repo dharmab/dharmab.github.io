@@ -10,7 +10,7 @@ if ! docker run \
   --user "$(id -u):$(id -g)" \
   pandoc/core \
   pandoc \
-  --self-contained \
+  --standalone \
   --css=style.css \
   "$1" \
   -o "$2"; \
