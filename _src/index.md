@@ -5,7 +5,7 @@ title: Dharma Bellamkonda
 
 My name is Dharma Bellamkonda. I'm a twentysomething living in Utah.
 
-![](assets/avatar.webp "A portrait of Dharma wearing a boonie hat, pink ear protection and a pink skull face mask."){width=100%}
+![](https://github.com/dharmab/dharmab.github.io/raw/master/assets/avatar.webp "A portrait of Dharma wearing a boonie hat, pink ear protection and a pink skull face mask."){width=100%}
 
 ## Professional Life
 
@@ -23,12 +23,12 @@ systems.
 I'm an avid adventure motorcyclist. I enjoy touring by motorcycle and
 [motocamping](http://reddit.com/r/motocamping). 
 
-![](assets/motocamping.webp "A motorcycle and tent in a field of sagebrush."){width=100%}
+![](https://github.com/dharmab/dharmab.github.io/raw/master/assets/motocamping.webp "A motorcycle and tent in a field of sagebrush."){width=100%}
 
-Prior to the COVID-19 pandemic, I traveled on at least one interstate
-motorcycle tour each year.
+Prior to the pandemic, I traveled on at least one interstate motorcycle tour
+each year.
 
-<video controls width="800" src="assets/2018-2019-montage.mp4" poster="assets/2018-2019-montage-preview.jpg" preload="metadata">
+<video controls width="800" src="https://github.com/dharmab/dharmab.github.io/raw/master/assets/2018-2019-montage.mp4" poster="https://github.com/dharmab/dharmab.github.io/raw/master/assets/2018-2019-montage-preview.jpg" preload="metadata">
   <source src="assets/2018-2019-montage.mp4" type="video/mp4">
 </video>
 
@@ -51,9 +51,9 @@ angle](https://www.rokinon.com/lenses/digital-photo-lenses/12mm-f20) lens. I
 really enjoy taking photos while camping or hiking, although I still have a lot
 to learn.
 
-![](assets/bryce.webp "A wide angle view of people hiking past hoodoos in Bryce Canyon National Park."){width=100%}
-![](assets/ashley.webp "A tent under a tree in Ashley National Forest."){width=100%}
-![](assets/flowers.webp "A close up of wildflowers on a forest floor."){width=100%}
+![](https://github.com/dharmab/dharmab.github.io/raw/master/assets/bryce.webp "A wide angle view of people hiking past hoodoos in Bryce Canyon National Park."){width=100%}
+![](https://github.com/dharmab/dharmab.github.io/raw/master/assets/ashley.webp "A tent under a tree in Ashley National Forest."){width: 100%}
+![](https://github.com/dharmab/dharmab.github.io/raw/master/assets/flowers.webp "A close up of wildflowers on a forest floor."){width=100%}
 
 I'm a fan of [Arch Linux](https://www.archlinux.org). I have a [git repo with
 my configuration](https://github.com/dharmab/ansible-archlinux) and an
