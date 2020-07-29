@@ -52,7 +52,7 @@ really enjoy taking photos while camping or hiking, although I still have a lot
 to learn.
 
 ![](https://github.com/dharmab/dharmab.github.io/raw/master/assets/bryce.webp "A wide angle view of people hiking past hoodoos in Bryce Canyon National Park."){width=100%}
-![](https://github.com/dharmab/dharmab.github.io/raw/master/assets/ashley.webp "A tent under a tree in Ashley National Forest."){width: 100%}
+![](https://github.com/dharmab/dharmab.github.io/raw/master/assets/ashley.webp "A tent under a tree in Ashley National Forest."){width=100%}
 ![](https://github.com/dharmab/dharmab.github.io/raw/master/assets/flowers.webp "A close up of wildflowers on a forest floor."){width=100%}
 
 I'm a fan of [Arch Linux](https://www.archlinux.org). I have a [git repo with
