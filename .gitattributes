@@ -1,7 +1,0 @@
-assets/motocamping.webp filter=lfs diff=lfs merge=lfs -text
-assets/2018-2019-montage.mp4 filter=lfs diff=lfs merge=lfs -text
-assets/2018-2019-montage-preview.jpg filter=lfs diff=lfs merge=lfs -text
-assets/ashley.webp filter=lfs diff=lfs merge=lfs -text
-assets/avatar.webp filter=lfs diff=lfs merge=lfs -text
-assets/bryce.webp filter=lfs diff=lfs merge=lfs -text
-assets/flowers.webp filter=lfs diff=lfs merge=lfs -text
