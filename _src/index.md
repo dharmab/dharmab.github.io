@@ -23,7 +23,7 @@ systems.
 I'm an avid adventure motorcyclist. I enjoy touring by motorcycle and
 [motocamping](http://reddit.com/r/motocamping). 
 
-![](assets/motocamping.webp "A motorcycle and tent in a field of sagebrush."){width=100%}
+![](assets/motocamping.webp "A motorcycle and tent in a field of sagebrush."){width=100% loading=lazy}
 
 Prior to the pandemic, I traveled on at least one interstate motorcycle tour
 each year.
@@ -52,9 +52,9 @@ angle](https://www.rokinon.com/lenses/digital-photo-lenses/12mm-f20) lens. I
 really enjoy taking photos while camping or hiking, although I still have a lot
 to learn.
 
-![](assets/bryce.webp "A wide angle view of people hiking past hoodoos in Bryce Canyon National Park."){width=100%}
-![](assets/ashley.webp "A tent under a tree in Ashley National Forest."){width=100%}
-![](assets/flowers.webp "A close up of wildflowers on a forest floor."){width=100%}
+![](assets/bryce.webp "A wide angle view of people hiking past hoodoos in Bryce Canyon National Park."){width=100% loading=lazy}
+![](assets/ashley.webp "A tent under a tree in Ashley National Forest."){width=100% loading=lazy}
+![](assets/flowers.webp "A close up of wildflowers on a forest floor."){width=100% loading=lazy}
 
 I'm a fan of [Arch Linux](https://www.archlinux.org). I have a [git repo with
 my configuration](https://github.com/dharmab/ansible-archlinux) and an

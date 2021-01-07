@@ -8,7 +8,7 @@ if ! docker run \
   --mount "type=bind,source=$PROJECT_DIRECTORY,destination=/data" \
   --userns=host \
   --user "$(id -u):$(id -g)" \
-  pandoc/core \
+  pandoc/core:2.9.2.1 \
   pandoc \
   --standalone \
   --css=style.css \
