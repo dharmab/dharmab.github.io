@@ -36,6 +36,12 @@ each year.
 I also do most of my own wrenching and maintain [technical documentation on my
 BMW F750GS](https://github.com/dharmab/bmw-f750gs-f850gs).
 
+I also work on cars. I have a modifed
+[DC5](https://en.wikipedia.org/wiki/Honda_Integra_DC5) that I drive in [SCCA
+Autocross](https://www.scca.com/pages/what-is-autocross) events.
+
+![](assets/autocross.webp "A car passing between traffic cones at high speed."){width=100% loading=lazy}
+
 I collect watches. Favorites in my collection include a [Monta
 Oceanking](https://montawatch.com/collections/oceanking/products/oceanking-60-minute-bezel),
 a [Dan Henry
