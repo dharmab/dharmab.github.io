@@ -4,20 +4,21 @@ lang: en-US
 ---
 # About
 
-My name is Dharma Bellamkonda. I'm a twentysomething living in Utah.
+My name is Dharma Bellamkonda. I'm a person living in Utah.
 
 ![](assets/avatar.webp "A portrait of Dharma wearing a boonie hat, pink ear protection and a pink skull face mask."){width=100%}
 
 ## Professional Life
 
-I am a software engineer. Currently, I'm a Senior Cloud Engineer at
-[Adobe](https://www.adobe.com). I'm a maintainer on the Project Ethos
-infrastructure, which is the multi-cloud [Kubernetes](https://kubernetes.io)
-distribution on which a majority of Adobe's services run. 
+I am a software engineer. Currently, I'm a Senior Software Engineer at [Planet
+Labs](https://www.planet.com), a satellite imaging data company.
 
-Previously, I was a Linux Engineer at [Maverik](https://www.maverik.com) where
-I was responsible for and automated the maintenance of the company's Linux
-systems.
+Previously, I was a Lead Cloud Engineer at [Adobe](https://www.adobe.com).
+Before that, I was a Linux Engineer at [Maverik](https://www.maverik.com).
+
+I mostly work with Linux and languages like Python, Go and shell. Lately, I've
+developed a specialization in distributed systems and public cloud
+infrastructure.
 
 ## Hobbies
 
@@ -72,7 +73,8 @@ games, books and podcasts, comic books/manga/manhua, electronic music.
 
 ## Contact
 
-You can get in touch with me by email at FIRST.LAST at gmail.com.
+You can get in touch with me by email at FIRST.LAST at gmail.com. I am not open
+to discuss new work at this time, but I'm happy to talk about other topics.
 
 [My GitHub is here.](https://github.com/dharmab)
 
