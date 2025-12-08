@@ -1,15 +1,7 @@
 #!/bin/bash
 
-PROJECT_DIRECTORY="$(dirname "$(cd "$(dirname "${BASH_SOURCE[0]}")" >/dev/null 2>&1 && pwd)")"
-
 echo "Converting $1 to $2..."
-if ! docker run \
-  --rm \
-  --mount "type=bind,source=$PROJECT_DIRECTORY,destination=/data" \
-  --userns=host \
-  --user "$(id -u):$(id -g)" \
-  pandoc/core:2.9.2.1 \
-  pandoc \
+if ! pandoc \
   --standalone \
   --css=style.css \
   "$1" \
