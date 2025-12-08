@@ -69,7 +69,8 @@ My friends and I play tabletop wargames to spend more time offline. We mostly
 play [Trench Crusade](https://trenchcrusade.com), with some [Warhammer
 40k](https://www.games-workshop.com/en-US/Warhammer-40-000) mixed in. The
 painting side of the hobby is a nice way to relax in the evenings, listening to
-music and chilling out away from computers.
+music and chilling out away from computers. I have a [website with my notes
+about the hobby and a few tiny apps](https://wartools.net).
 
 I'm also into the usual nerdy range of hobbies: video games, books and
 podcasts, comic books/manga/manhua, electronic music.
