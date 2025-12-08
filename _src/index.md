@@ -16,8 +16,14 @@ generative AI to impersonate me to my friends and family._
 I am a software engineer. Currently, I'm a Senior Software Engineer at [Planet
 Labs](https://www.planet.com), a satellite imaging data company.
 
-Previously, I was a Lead Cloud Engineer at [Adobe](https://www.adobe.com).
-Before that, I was a Linux Engineer at [Maverik](https://www.maverik.com).
+Previous work includes:
+
+- Lead Cloud Engineer at [Adobe](https://www.adobe.com).
+- Linux Engineer at [Maverik](https://www.maverik.com).
+- Software Engineer at a startup related to networking and content delivery. It
+  was later absorbed into [Stratacache](https://stratacache.com).
+- Other experience in healthcare & biotech, before I worked with software
+  professionally.
 
 My specializations include distributed systems, cloud infrastructure,
 production operations, incident management, and security & compliance.
