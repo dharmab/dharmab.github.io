@@ -32,15 +32,20 @@
     }
     #zones {
       margin-top: 2rem;
-      display: flex;
-      flex-wrap: wrap;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(6rem, max-content));
       justify-content: center;
       gap: 1.5rem 2.5rem;
+      width: 100%;
+      max-width: 50rem;
     }
     .zone {
       text-align: center;
       color: #585858;
       font-size: 0.85rem;
+    }
+    .zone:last-child:nth-child(odd) {
+      grid-column: 1 / -1;
     }
     .zone-time {
       font-size: 1.1rem;
