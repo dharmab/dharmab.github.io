@@ -1,6 +1,7 @@
 const zones = [
   { id: "tz-sf", tz: "America/Los_Angeles" },
   { id: "tz-slc", tz: "America/Denver" },
+  { id: "tz-tucson", tz: "America/Phoenix" },
   { id: "tz-manistee", tz: "America/Detroit" },
   { id: "tz-east", tz: "America/New_York" },
   { id: "tz-uk", tz: "Europe/London" },
