@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Time</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      background: #181818;
+      color: #d8d8d8;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+      padding: 2rem;
+    }
+    #local-date {
+      font-size: clamp(1.2rem, 3vw, 2rem);
+      font-weight: 300;
+      color: #b8b8b8;
+      margin-bottom: 0.5rem;
+    }
+    #local-time {
+      font-size: clamp(3rem, 10vw, 8rem);
+      font-weight: 300;
+      letter-spacing: 0.02em;
+      color: #d8d8d8;
+      font-variant-numeric: tabular-nums;
+    }
+    #zones {
+      margin-top: 2rem;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 1.5rem 2.5rem;
+    }
+    .zone {
+      text-align: center;
+      color: #585858;
+      font-size: 0.85rem;
+    }
+    .zone-time {
+      font-size: 1.1rem;
+      color: #b8b8b8;
+      font-variant-numeric: tabular-nums;
+      margin-top: 0.15rem;
+    }
+  </style>
+</head>
+<body>
+  <div id="local-date"></div>
+  <div id="local-time"></div>
+  <div id="zones">
+    <div class="zone"><div class="zone-label">San Francisco</div><div class="zone-time" id="tz-sf"></div></div>
+    <div class="zone"><div class="zone-label">Salt Lake City</div><div class="zone-time" id="tz-slc"></div></div>
+    <div class="zone"><div class="zone-label">Manistee</div><div class="zone-time" id="tz-manistee"></div></div>
+    <div class="zone"><div class="zone-label">East Coast</div><div class="zone-time" id="tz-east"></div></div>
+    <div class="zone"><div class="zone-label">UK</div><div class="zone-time" id="tz-uk"></div></div>
+    <div class="zone"><div class="zone-label">Netherlands</div><div class="zone-time" id="tz-nl"></div></div>
+    <div class="zone"><div class="zone-label">Germany</div><div class="zone-time" id="tz-de"></div></div>
+  </div>
+  <script src="time.js"></script>
+</body>
+</html>
